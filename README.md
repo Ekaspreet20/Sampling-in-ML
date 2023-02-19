@@ -8,7 +8,19 @@ We Can either use oversampling or undersampling to make our data balanced. Here 
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/65918628/219943645-45671bda-a718-4f9c-a59c-f9e6f55b16a5.png">
 
 
-5 different sampling techniques (Simple random, Systematic,Stratified,Cluster,Normal train test splitting ) were used to train 6 different classification models (Kneighbors,Bernoulli,logistic,Decision,Random,SVC). Sample size formulas were used to decide sample size. 
+5 different sampling techniques (Simple random, Systematic,Stratified,Cluster,Normal train test splitting ) were used to train 6 different classification models (Kneighbors,Bernoulli,logistic,Decision,Random,SVC). 
+
+Simple Random Sampling: Each data point in the dataset has an equal probability of being selected in the sample.
+
+Systematic Sampling: Every mth element in the population is selected for the sample.
+
+Stratified Sampling: The population is divided into subgroups (strata) based on a specific characteristic, and samples are taken from each stratum in proportion to the population.
+
+Cluster Sampling: The population is divided into clusters, and a sample of clusters is randomly selected. Then, all members of the selected clusters are included in the sample.
+
+Normal : The total population is split into train and test data directly 
+
+Sample size formulas were used to decide sample size. 
 Efficient modelling was done using Grid Search. Testing was done on the remaining data set.
 
 Final output
