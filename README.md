@@ -9,10 +9,11 @@ We Can either use over or undersampling to make our data balanced. Here we used 
 
 5 different sampling techniques (Simple random, Systematic,Stratified,Cluster,Normal train test splitting ) were used to train 6 different classification models (Kneighbors,Bernoulli,logistic,Decision,Random,SVC). Testing was done on the remaining data set
 
-#Final output
+Final output
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/65918628/219943726-f0eaaf03-f578-4492-bf13-0c951b030249.png">
 
 Best models for all sampling  method: 
 In this case random forest is the best model for all
+
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/65918628/219943755-12bbccac-913e-488a-bac1-9a1dd44c98bf.png">
